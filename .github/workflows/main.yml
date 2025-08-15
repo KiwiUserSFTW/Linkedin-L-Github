@@ -6,5 +6,5 @@ jobs:
       steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-     - name: Run Feed Generator
-       users: KiwiUserSFTW/Linkedin-L-Github-generator@main
+      - name: Run Feed Generator
+        uses: KiwiUserSFTW/Linkedin-L-Github-generator@main
